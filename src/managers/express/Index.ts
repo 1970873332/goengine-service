@@ -7,7 +7,7 @@ export default abstract class BaseExpressManager {
     /**
      * 应用
      */
-    declare protected static app: Express;
+    protected declare  static app: Express;
 
     /**
      * 获取

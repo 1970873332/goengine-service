@@ -9,8 +9,8 @@ export default class HTTPSServerManager extends HTTPServerManager {
     /**
      * SSL 配置
      */
-    declare public static ssl: TlsOptions;
-    declare public static app?: Server;
+    public declare  static ssl: TlsOptions;
+    public declare  static app?: Server;
 
     public static obtain(
         ...args: Partial<Parameters<typeof HTTPSServerManager.create>>

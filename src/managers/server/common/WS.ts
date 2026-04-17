@@ -9,7 +9,7 @@ export default class WSServerManager
     extends BaseServerManager
     implements HTTPServerManager
 {
-    declare protected static app?: WebSocketServer;
+    protected declare  static app?: WebSocketServer;
 
     public static obtain(
         ...args: Parameters<typeof WSServerManager.create>

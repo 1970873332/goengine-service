@@ -10,7 +10,7 @@ export default abstract class BaseServerManager {
     /**
      * Express
      */
-    declare protected static express: Express;
+    protected declare  static express: Express;
 
     /**
      * 回调

@@ -8,7 +8,7 @@ export default abstract class HTTPServerManager extends BaseServerManager {
     /**
      * 应用
      */
-    declare protected static app?: Server;
+    protected declare  static app?: Server;
 
     /**
      * 获取
