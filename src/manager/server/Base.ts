@@ -41,7 +41,7 @@ export default abstract class BaseServerManager {
                 `${ColorMap.绿色}✅ 服务器已启动,监听地址 ${ColorMap.黄色}${address}${ColorMap.重置}`,
             );
         } else if (typeof address === "object") {
-            let type: ModConfig["agreement"] | undefined,
+            let type: ModConfig["protocol"] | undefined,
                 info: string | undefined,
                 infoColor: string | undefined;
             const host: string =
